@@ -11,7 +11,7 @@ const NewsletterModal = ({ onClose }) => {
 
     try {
       // Update the fetch URL to use the correct Netlify function endpoint
-      const response = await fetch('https://www.compilersutra.com/.netlify/functions/subscribe', { // Adjusted endpoint
+      const response = await fetch('https://ce9e-49-43-241-214.ngrok-free.app/save-email', { // Adjusted endpoint
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
